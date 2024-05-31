@@ -22,3 +22,6 @@ transition: all;
 
 }
 
+.min_h{
+ min-height: 300px;
+}
