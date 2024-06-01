@@ -15,10 +15,10 @@ function App() {
 
   return (
     <>
-      <div className="flex  lg:justify-center  items-center h-screen">
-        <div className="w-[35vw] text-white rounded-2xl min-h-[300px] h-auto bg-[#313A49] py-8 px-6 flex flex-col justify-between">
+      <div className="flex  justify-center  items-center h-screen p-5 lg:p-0 ">
+        <div className="lg:w-[500px]  text-white rounded-2xl min-h-[300px] h-auto bg-[#313A49] py-8 px-6 flex flex-col justify-between">
           <div>
-            <p className="text-center text-[14px]">ADVICE #{adviceNumber}</p>
+            <p className="text-center text-[14px] text-[#50EDA1]">ADVICE #{adviceNumber}</p>
             <h1 className="text-center mt-8 text-[28px]">"{advice}"</h1>
             <img
               src="/images/pattern-divider-desktop.svg"
